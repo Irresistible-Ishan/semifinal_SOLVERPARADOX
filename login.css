@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .topnav button:hover {
+    background-color: #ddd;
+  }
+  div.container {
+  border-radius: 40px;
+  color: white;
+  box-shadow: 0 0 20px black;
+  padding: 20px;
+  margin-left: 35%;
+  margin-right: 35%;
+    
+  }
+  .btn-grad {background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+  .bg {
+    /* The image used */
+    background-image: url("box1.jpg");
+  
+    /* Full height */
+    height:604.667px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
